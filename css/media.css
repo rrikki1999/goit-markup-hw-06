@@ -30,13 +30,15 @@
     .what-we-do{
         display: none;
     }
+
 }
 
 
 @media screen and (min-width: 768px){
     .container{
-        max-width: 734px;
+        max-width: 768px;
     }
+    
     .header-container{
         padding-top: 0px;
         padding-bottom: 0px;
@@ -51,6 +53,10 @@
     }
     .options-menu-btn{
         display: none;
+    }
+
+    .header-logo {
+        margin-right: 120px;
     }
 
 
@@ -68,8 +74,9 @@
     }
 
     .element-buttton {
-        margin-left: 284px;
+        margin: 0 auto;
     }
+
     .advantages{
         padding-top: 96px;
         padding-bottom: 96px;
@@ -158,9 +165,9 @@
 
 } 
 
-@media screen and (min-width: 1166px){
+@media screen and (min-width: 1158px){
     .container{
-        max-width: 1166px;
+        max-width: 1158px;
     }
     .header-menu{
         display: flex;
@@ -174,7 +181,7 @@
     }
 
     .effective-sol-button{
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+    background-image:
     url(../images/people-office.jpg); 
     background-position: center;
     background-repeat: no-repeat;

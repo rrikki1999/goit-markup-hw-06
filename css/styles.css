@@ -333,7 +333,7 @@ cursor: pointer;
 border-radius: 4px;
 border: none;
 display: block;
-margin-left: 129px;
+margin: 0 auto;
 min-width: 169px;
 padding: 16px 32px;
 transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
