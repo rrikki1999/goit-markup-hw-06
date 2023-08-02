@@ -46,7 +46,8 @@
         display: flex;
     }
     .header-socials{
-        display: flex;
+        display: block;
+        margin-left: 121px;
     }
     .options-menu-btn{
         display: none;
