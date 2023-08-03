@@ -1,4 +1,25 @@
-
+@media screen and (min-width: 428px) {
+    .container {
+      max-width: 428px;
+    }
+    .footer-input {
+      width: 398px;
+    }
+  }
+  
+  @media screen and (max-width: 427px) {
+    .mob-socials-link {
+      font-size: 24px;
+    }
+  
+    .modal {
+      width: 90%;
+    }
+  
+    .footer-input {
+      min-width: 290px;
+    }
+  }
 @media screen and (min-width: 428px){
     /* .container{
         max-width: 428px;
@@ -31,6 +52,9 @@
         display: none;
     }
 
+    .footer-input{
+        min-width: 288px; 
+    }
 }
 
 
@@ -38,7 +62,7 @@
     .container{
         max-width: 768px;
     }
-    
+
     .header-container{
         padding-top: 0px;
         padding-bottom: 0px;
@@ -58,6 +82,12 @@
     .header-logo {
         margin-right: 120px;
     }
+    .customers-section{
+        max-width: 768px;
+        padding-top: 96px;
+        padding-bottom: 96px;
+    }
+
 
 
     .effective-sol-button{
@@ -112,16 +142,16 @@
 
     .team-item{
         margin-bottom: 64px;
-        margin-right: 24px;
         
     }  
     .customers-item{
     width: calc((100% - 48px) / 3);
+    
     }
 
     .footer-contr{
         display: flex;
-        max-width: 548px;
+        max-width: 564px;
         justify-content: baseline;
     } 
     
@@ -166,9 +196,12 @@
 } 
 
 @media screen and (min-width: 1158px){
-    .container{
-        max-width: 1158px;
+    .container{ 
+    width: 100%;
+    max-width: 1158px;
+    padding: 0 15px;
     }
+
     .header-menu{
         display: flex;
     }
@@ -176,12 +209,16 @@
     .header-socials{
         display: flex;
     }
+    .header-logo{
+        margin-right: 76px;
+    }
     .options-menu-btn{
         display: none;
     }
 
     .effective-sol-button{
-    background-image:
+    max-width: 1440px;
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
     url(../images/people-office.jpg); 
     background-position: center;
     background-repeat: no-repeat;
@@ -242,6 +279,12 @@
         margin-right: 0px;
         width: calc((100%-72px)/4); 
     } 
+    
+.customers-section{
+    padding-top: 120px;
+    padding-bottom: 120px;
+    max-width: 1440px;
+}
 
     .customers-item{
         width: 168px; 
@@ -252,18 +295,25 @@
     }
 
     .footer-contr{
-         align-items: baseline;
+        /* margin-right: 120px;
+        width: 264px; */
     } 
+    .footer-form {
+        gap: 24px;
+      }
+    
 
     
     .footer-input {
          width: 264px;
-          margin-left: 80px; 
+         
     }
+    .footer-contact-info {
+        margin-right: 80px;
+    }
+
     
-    .footer-txt{
-        margin-left: 80px;
-    }
+  
 
     .what-we-do{
         display: block;
@@ -274,7 +324,7 @@
       
     .effective-sol-button{
         background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-    url(../images/computerimage2x.jpg); 
+    url(../images/people-office-2x.jpg); 
     }
     }
  
