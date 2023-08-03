@@ -87,6 +87,12 @@
     }
 }
 
+@media screen and (min-width: 768px) and (max-width: 1157px){
+    .container{
+        gap: 72px 24px;
+    }
+
+}
 @media screen and (min-width: 768px){
     .container{
         max-width: 768px;
