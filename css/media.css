@@ -19,14 +19,29 @@
     .footer-input {
       min-width: 290px;
     }
+    
+.advantages-subtitle {
+    color: var(--primary-black-color);
+    font-size: 36px;
+    font-weight: 700;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    text-align: center;
+    margin-bottom: 0;
+    }
   }
 @media screen and (min-width: 428px){
-    /* .container{
+    .container{
         max-width: 428px;
-    } */
+    }
     .advantages-subtitle{
         text-align: center;
         font-size: 36px;
+        font-weight: 700;
+        letter-spacing: 0.02em;
+        text-transform: capitalize;
+        text-align: center;
+        margin-bottom: 0;
     }
     .what-we-do{
         display: none;
@@ -54,6 +69,11 @@
 
     .footer-input{
         min-width: 288px; 
+    }
+    .team-menu{
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 }
 
@@ -127,8 +147,7 @@
     .advantages-subtitle {
         color: var(--primary-black-color);
         font-size: 36px;
-        font-weight: 700;
-        line-height: 11px; 
+        font-weight: 700; 
         letter-spacing: 0.02em;
         text-transform: capitalize;
         text-align: left;
