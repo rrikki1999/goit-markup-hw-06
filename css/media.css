@@ -141,6 +141,7 @@
 @media screen and (max-width: 768px) {
   .container {
     gap: 72px;
+    justify-content: center;
   }
 }
 
