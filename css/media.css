@@ -136,13 +136,44 @@
   .footer-contr{
     justify-content: center;
   }
+  
+ 
+  
+
 
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .container {
     gap: 72px;
     justify-content: center;
   }
+
+  .element-button {
+    padding: 8px 16px;
+    
+    
+  }
+   
+  .portfolio-main {
+    padding-top: 48px;
+  }
+
+  .buttons-menu {
+    margin-bottom: 48px;
+    gap: 16px 24px;
+    flex-wrap: wrap;
+    max-width: 350px;
+    justify-content: left;
+  }
+
+  .product-image{
+    height: 300px;
+  }
+  .advantagesss-item {
+    width: auto;
+  }
+  
+
 }
 
 
@@ -174,12 +205,28 @@
   .buttons-menu {
     margin-bottom: 64px;
   }
+  .advantagesss-item {
+    width: calc((100% - 24px) / 2);
+}
+
+.product-image{
+  height: 300px;
+}
+.advantages-list {
+  gap: 72px 24px;
+  justify-content: left;
+}
+
+.container.center-container{
+  max-width: 768px;
+}
  
 
 }
 @media screen and (min-width: 768px) {
   .container {
     max-width: 584px;
+    
   }
 
   .header-container {
